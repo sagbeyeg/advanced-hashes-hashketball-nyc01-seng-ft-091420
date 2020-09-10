@@ -179,5 +179,5 @@ def player_numbers(team_name)
         end
       end
   end
-  retun output
+  return output
 end
