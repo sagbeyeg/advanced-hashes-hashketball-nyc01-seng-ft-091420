@@ -173,11 +173,12 @@ def player_numbers(team_name)
         team_info[:players].each do |key, value|
           if key == [:players]
             value.each do |player|
-              outout.push(player[:number])
+              outout << player[:number]
             end
           end
         end
       end
   end
+binding.pry
   return output
 end
