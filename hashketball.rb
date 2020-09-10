@@ -206,6 +206,5 @@ rebounds = 0
       end
     end
   end 
-  binding.pry
   return rebounds
 end
